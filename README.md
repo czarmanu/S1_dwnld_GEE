@@ -10,23 +10,23 @@ Note: The data will ve downloaded to a folder in your google drive
 
 #### Set the right parameters before running the code
 
-Bounding box parameters:
-ROI_BB_TL -> Top Left coordinates (Longitude, Latitude)
-ROI_BB_BL -> Bottom Left coordinates (Longitude, Latitude) 
-ROI_BB_BR -> Bottom Right coordinates (Longitude, Latitude) 
-ROI_BB_TR -> Top Right coordinates (Longitude, Latitude) 
+1. Bounding box parameters:
+(a). ROI_BB_TL -> Top Left coordinates (Longitude, Latitude)
+(b). ROI_BB_BL -> Bottom Left coordinates (Longitude, Latitude) 
+(c). ROI_BB_BR -> Bottom Right coordinates (Longitude, Latitude) 
+(d). ROI_BB_TR -> Top Right coordinates (Longitude, Latitude) 
 
-To set the coordinate system: crs
+2. To set the coordinate system: crs
 
-To set the time period:
-start_date -> Set the start date
-end_date   -> Set the end date
+3. To set the time period:
+(a). start_date -> Set the start date
+(b). end_date   -> Set the end date
 
-To set the orbit details:
-orbit -> sets the Sentinel-1 (relative) orbit number
-orb_type -> sets the S1 orbit type here
+4. To set the orbit details:
+(a). orbit -> sets the Sentinel-1 (relative) orbit number
+(b). orb_type -> sets the S1 orbit type here
 
-res -> resolution in metres
+5. res -> resolution in metres
 
-scale -> download scale
+6. scale -> download scale
 
